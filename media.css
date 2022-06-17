@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+}
+main {
+  background-color: hsl(0, 100%, 74%);
+  display: flex;
+  color: aliceblue;
+  margin-top: 80px;
+  padding: 50px;
+  margin-bottom: 80px;
+  margin-left: 250px;
+  margin-right: 250px;
+  height: 900;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "a a a a a"
+    "b b b b b";
+  gap: 20px;
+}
+input {
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  border-radius: 5px;
+}
+p {
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: small;
+}
+.phead {
+  font-size: larger;
+  font-weight: 700;
+  font-family: " [Poppins](https://fonts.google.com/specimen/Poppins)";
+  margin-right: 100px;
+  margin-bottom: none;
+  justify-content: center;
+}
+
+.two {
+  background-color: blueviolet;
+  color: white;
+  grid-area: a;
+  height: 25px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+}
+.three {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+  grid-area: b;
+}
+button {
+  padding: 20px;
+  margin: 20px;
+  width: 550px;
+  border-radius: 5px;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  cursor: grab;
+}
+::placeholder {
+  font-weight: bolder;
+}
+footer {
+  margin-bottom: 20px;
+  margin-left: 60px;
+  font-size: x-small;
+  align-self: center;
+}
+strong {
+  color: red;
+}
+small {
+  font-size: x-small;
+}
+.head-one {
+  align-content: center;
+}
